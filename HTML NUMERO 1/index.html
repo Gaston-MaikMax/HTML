@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Miprimer HTML</title>
+ <meta name="description" content="mi primera paguina html ">
+ <link rel="stylesheet" href="css/estilos.css">
+ <link rel="icon" href="imagenes/2.png">
+ <meta name="theme-color" content="#ff6600">
+ <meta property="og:title" content="Aprendiendo HTML">
+ <meta property="og:description" content="mi primera paguina html">
+ <meta property="og:image" content="https://tudominio.com/img/2.png">
+ <meta property="og:url" content="https://tudominio.com/index.html">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter" content="summary">
+</head>
+
+<body>
+ <!--comentarios -->
+ <p>primer html </p>
+ <h1> emcabeZADO</h1>
+ <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rerum repellendus illum quidem, ab in consequuntur
+  excepturi ducimus animi illo a dolorem harum facilis laborum nesciunt sequi hic quas rem.</P>
+ <p>palabra en:
+  <b>negrita </b>,
+  <i>italica,
+   <u>subrayado</u>
+   e=mc <sup>2</sup>H <sup>2</sup>O, <mark>marcatexto </mark>
+   <small>letras pequenas </small>
+  </i>
+ </p>
+ <p>
+  <strong>este texto es importante</strong>, <em>este texto tiene enfacis</em>,
+ </p>
+ <blockquote>yo solo se que no se nada</blockquote>
+ <br>
+ salto
+ <br>
+ <hr>
+ <h2 id="etiquetas_fomateo">etiquetas de formateo</h2>
+ <p>
+ <pre>
+ listas de tareas
+ -terminar
+ -html
+ -css
+ -comenzar
+  </pre>
+ </p>
+ <p>
+ <pre>
+   <code>
+    define('PSI_INTERN
+    if
+     (version_compare("5.2",
+      PHP_VERSION,
+       ">")) {
+      die("PHP 5.2
+ 
+   
+   </code>
+  </pre>
+ </p>
+ <a href="index.html#inicio">👍</a>
+
+ <hr>
+ <h2 id="etiquetas-semanticas">etiquetas cemanticas</h2>
+ <div>es una etiqueta contenedora que no tiene semantica</div>
+ <header>cabecero de un sitio wed o de una seccion </header>
+ <main>define la seleccion principal del documento solo puede existir 1 por documento </main>
+ <footer>pie de paguina de un sistio wed o de una seleccion </footer>
+ <nav>presenta una navegacion </nav>
+ <article>represnta una sellcion autocontenido </article>
+ <aside>representa articulo complemetarios o secundarios </aside>
+ <section>representa una seccion de contenido generico</section>
+ <address>representa una direccion </address>
+ <a href="index.html#inicio">👍</a>
+
+ <hr>
+ <h2 id="bloqueo-vs-lineal">etiquetas de bloque vs etiquetas de linea </h2>
+ <div style="background-color: aqua;">la equitequet de bloque por exelencia es div </div>
+ <span style="background-color: chartreuse;">es la etiqueta de linea por exelencia es span solo ocupa el espacio
+  necesario que tiene su contenido </span>
+ <a href="index.html#inicio">👍</a>
+
+ <hr>
+ <h2 id="estilos-css-html">estilos CSS EN HTML</h2>
+ <hr>
+ <h2 id="imagenes">imagenes </h2>
+ <img src="imagenes/png.jpg" alt="tabla">
+ <img src="imagenes/jpeg.jpg" alt="">
+ <img src="imagenes/gif.gif" alt="">
+ <a href="index.html#inicio">👍</a>
+
+ <hr>
+ <h2 id="vectores-imagenes-svg">SVG VECTORES EN IMAGENES </h2>
+ <img src="imagenes/fox-svgrepo-com.svg" alt="">
+ <hr>
+ <a href="index.html#inicio">👍</a>
+
+ <h2 id="figura">figura </h2>
+ <figure>
+  <img src="imagenes/gif.gif" alt="felix el gato">
+  <figcaption>El gato felix</figcaption>
+ </figure>
+ <a href="index.html#inicio">👍</a>
+
+ <hr>
+ <h2 id="list-ordenadas">listas ordenadas</h2>
+ <h3>las estaciones </h3>
+ <ol>
+  <li>primavera</li>
+  <li>verano</li>
+  <li>otono</li>
+  <li>invierno</li>
+ </ol>
+ <ol start="4">
+  <li>primavera</li>
+  <li>verano</li>
+  <li>otono</li>
+  <li>invierno</li>
+ </ol>
+ <ol reversed>
+  <li>primavera</li>
+  <li>verano</li>
+  <li>otono</li>
+  <li>invierno</li>
+ </ol>
+ <ol type="I">
+  <li>primavera</li>
+  <li>verano</li>
+  <li>otono</li>
+  <li>invierno</li>
+ </ol>
+ <a href="index.html#inicio">👍</a>
+
+ <hr>
+ <h2 id="list-desordenadas">listas desordenadas </h2>
+ <h3>cosa por hacer</h3>
+ <ul>
+  <li>odenar cuarto</li>
+  <li>comer</li>
+  <li>salir a correr</li>
+ </ul>
+ <ul type="square">
+  <li>odenar cuarto</li>
+  <li>comer</li>
+  <li>salir a correr</li>
+ </ul>
+ <ul type="cicle">
+  <li>odenar cuarto</li>
+  <li>comer</li>
+  <li>salir a correr</li>
+ </ul>
+ <hr>
+ <a href="index.html#inicio">👍</a>
+
+ <h2 id="list-definicion">listas de definicion</h2>
+ <dl>
+  <dt>HTML</dt>
+  <dd>es un lenguaje de etiquetado </dd>
+ </dl>
+ <hr>
+ <a href="index.html#inicio">👍</a>
+
+ <h2 id="tablas">tabla</h2>
+ <table>
+  <tr>
+   <td>Nombre</td>
+   <td>apelllido</td>
+   <td> curso</td>
+  </tr>
+  <tr>
+   <td>Maik</td>
+   <td>Quispe</td>
+   <td>5a</td>
+
+  </tr>
+  <tr>
+   <td>Carlos</td>
+   <td>Quiroga</td>
+   <td>5b</td>
+  </tr>
+  <tr>
+   <td>Camilo</td>
+   <td>Condori</td>
+   <td>6a</td>
+  </tr>
+ </table>
+ <a href="index.html#inicio">👍</a>
+
+ <br><br><br>
+
+ <table>
+  <thead>
+   <tr>
+    <th colspan="3">Tabla de los nombre</th>
+   </tr>
+   <tr>
+    <th>Nombre</th>
+    <th>apelllido</th>
+    <th> curso</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Maik</td>
+    <td>Quispe</td>
+    <td>5a</td>
+
+   </tr>
+   <tr>
+    <td>Carlos</td>
+    <td>Quiroga</td>
+    <td>5b</td>
+   </tr>
+   <tr>
+    <td>Camilo</td>
+    <td>Condori</td>
+    <td>6a</td>
+   </tr>
+  </tbody>
+  <tfoot>
+   <tr>
+    <th colspan="3">el reguistro fue creado por Maik</th>
+   </tr>
+  </tfoot>
+ </table>
+ <a href="index.html#inicio">👍</a>
+
+ <hr>
+ <h2 id="enlaces">Enlaces</h2>
+ <a href="prueba1.html">sihuiente paguina</a>
+ <br>
+ <a href="https://www.youtube.com/watch?v=-oK6zL01fNM&t=12586s">parende aprogramar con HTLM</a>
+ <br>
+ <a href="https://www.instagram.com/?hl=es-la" target="_blank">
+  <img src="imagenes/gif.gif" alt="imstagram" width="300" head="300">
+ </a>
+ <a href="index.html#inicio">👍</a>
+ <hr>
+ <h2 id="inicio">enlaces internos mas etiqueta de buelta que es "👍"</h2>
+ <h3>indice</h3>
+ <ul>
+  <li><a href="index.html#etiquetas-semanticas">etiquetas cemanticas</a></li>
+  <li><a href="index.html#bloqueo-vs-lineal">etiquetas de bloque vs etiquetas de linea</a></li>
+  <li><a href="index.html#etiquetas_fomateo">etiquetas de formateo</a></li>
+  <li><a href="index.html#estilos-css-html">estilos CSS EN HTML</a></li>
+  <li><a href="index.html#vectores-imagenes-svg">SVG VECTORES EN IMAGENES</a></li>
+  <li><a href="index.html#figura">figura</a></li>
+  <li><a href="index.html#list-ordenadas">listas ordenadas</a></li>
+  <li><a href="index.html#list-desordenadas">listas desordenadas</a></li>
+  <li><a href="index.html#list-definicion">listas de definicion</a></li>
+  <li><a href="index.html#enlaces">Enlaces</a></li>
+  <li><a href="index.html#inicio">enlaces internos</a></li>
+  <li><a href="index.html#elem-interacti">elementos interactivos</a></li>
+  <li><a href="index.html#audio-video">Audio y video</a></li>
+  <li><a href="index.html#iframes">iframes</a></li>
+
+  <li><a href="index.html#"></a></li>
+
+  <a href=" index.html#inicio">👍</a>
+  <hr>
+  <h2>enlaces</h2>
+  <a href="hola@gmail.com">correo electronico</a>
+  <br>
+  <a href="+591 2342341">telefono</a>
+  <br>
+  <a href="https://api.whatsapp.com/send?phone=342343242353">Whatsapp</a>
+  <hr>
+  <h2 id="elem-interacti">elementos interactivos</h2>
+  <button onclick="alert('has pulsado el boton')">este es un boton</button>
+
+  <details>
+   <summary>titulo acordeon</summary>
+   <article>
+    <h3>contenido</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <img src="imagenes/gif.gif" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+   </article>
+  </details>
+  <br><br>
+  <h2>acordeon abierto</h2>
+  <details open>
+   <summary>titulo acordeon</summary>
+   <article>
+    <h3>contenido</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <img src="imagenes/gif.gif" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+   </article>
+  </details>
+  <br><br>
+  <h2>ventana emergente</h2>
+  <dialog open="">
+   esto es una ventana emergente Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempore necessitatibus
+   fugiat tenetur beatae atque impedit provident, deserunt sit, pariatur nam saepe veritatis, itaque ducimus nihil
+   architecto commodi omnis aliquid.
+  </dialog>
+  <br>
+  <a href="index.html#inicio">👍</a>
+  <hr>
+  <h2 id="audio-video">Audio y video</h2>
+  <audio src="media/Piece.mp3" controls preload></audio>
+  <br>
+  <video src="media/hola.mp4" controls preload poster="imagenes/png.jpg"></video>
+  <br>
+  <a href="index.html#inicio">👍</a>
+  <hr>
+  <h2 id="iframes">iframes</h2>
+  <iframe src="index.html#list-definicion" frameborder="1"></iframe>
+  <iframe src="https://es.wikipedia.org/wiki/Wikipedia:Portada++++++++" frameborder="0 "></iframe>
+  <br>
+  <a href="index.html#inicio">👍</a>
+  <hr>
+  <h2 id="formularios">formularios</h2>
+  <h3>elementos de formulario</h3>
+  <br>
+  <input type="text">
+  <br>
+  <input type="checkbox">
+  <br>
+  <input type="radio">
+  <br>
+  <input type="date">
+  <br>
+  <input type="color">
+  <br>
+  <input type="button" value="boton">
+  <br>
+  <input type="submit">
+  <br>
+  <input type="reset">
+  <br>
+  <input type="file" multiple>
+  <br>
+  <input type="hidden" name="idioma" value="es">
+  <br>
+  <input type="email">
+  <br>
+  <input type="number">
+  <br>
+  <input type="tel">
+  <br>
+  <input type="password">
+  <br>
+  <input type="search">
+  <br>
+  <textarea cols="50" rows="5"></textarea>
+  <br>
+  <br>
+  <select name="" id="">
+   <option value="">CSS</option>
+   <option value="">HTML`</option>
+   <option value="">js</option>
+   <option value="">JDK</option>
+  </select>
+  <br><br>
+  <input type="text" value="MaikMax" readonly disabled>
+  <br>
+  <input type="text" placeholder="Escribe tu nombre">
+  <br><br><br><br>
+  <h3>Ejemplo de formulario</h3>
+  <h4>ejemplo de loguin</h4>
+  <form action="https://www.jonmircha.com/" method="post" autocomplete="off ">
+   <label for="usuario">Usuario :</label>
+   <input type="text" name="usuario" id="usuario" placeholder="escrive tu usuario" pattern="[A-Za-z ]+$"
+    title="el campo solo acepta letras" required>
+   <br>
+   <label for="password">Password</label>
+   <input type="password" name="password" id="password" placeholder="escribe tu password" required>
+   <br>
+   <input type="submit">
+   <br>
+   <input type="reset">
+   <br>
+  </form>
+  <h4>selects, radio y checkbox</h4>
+  <form action="">
+   <p>elegue tu idioma </p>
+   <select name="idioma" required>
+    <option value="">Eligue la apccion</option>
+    <option value="es">Espanol</option>
+    <option value="en">ingles</option>
+    <option value="fr">frances</option>
+    <option value="it">italiano</option>
+    <option value="pt">portugues</option>
+
+   </select>
+   <p>elige un lenguaje de programacion favorita</p>
+   <input type="radio" name="lenguaje" id="radio-js" value="js" required>
+   <label for="radio-js">JavaScropt</label>
+   <input type="radio" name="lenguaje" id="radio-py" value="py">
+   <label for="radio-py">Python</label>
+   <input type="radio" name="lenguaje" id="radio-php" value="php">
+   <label for="radio-php">PHP</label>
+   <br>
+   <p>elige tus intereces</p>
+   <label>
+    <input type="checkbox" name="intereses" value="deportes">
+    Deportes
+   </label>
+   <label>
+    <input type="checkbox" name="intereses" value="finanzas" required>
+    Finanzas
+   </label>
+   <label>
+    <input type="checkbox" name="intereses" value="salud">
+    Salud
+   </label>
+   <label>
+    <input type="checkbox" name="intereses" value="politica">
+    Politica
+   </label>
+   <label>
+    <input type="checkbox" name="intereses" value="ecologuia">
+    Ecologuia
+   </label>
+   <p>
+    <label>
+     <input type="checkbox" name="terminos" required>
+     Aceptas terminos y condiciones?
+    </label>
+   </p>
+   <input type="submit">
+   <input type="reset">
+  </form>
+  <h4>Formulario de contacto</h4>
+  <form action="https://formsubmit.co/maikquispe2222@email.com" method="post">
+   <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="[A-Za-zNHÁáÉélíÓ6ÚúÜü\s]+$*E
+" title="solo acepta letras " required>
+   <br>
+   <input type="email" name="correo" placeholder="Escribe tu correo" pattem="^(\w+[/./-]
+    ?){1,}@[a-z]+[/Jw{2,}$" required title="Formato de correo invalido">
+   <br>
+   <textarea name="comentarios" cols="30" rows="10" required></textarea>
+   <br>
+   <input type="submit">
+  </form>
+
+
+  <a href="index.html#inicio">👍</a>
+  <hr>
+  <h2 id="data-atributes">data atributes</h2>
+  <br>
+  <ul>
+   <li data-id="1" data-name="spring">Primavera</li>
+   <li data-id="2" data-name="sumer">Verano</li>
+   <li data-id="3" data-name="autumn">Otono</li>
+   <li data-id="4" data-name="wintwer">Invierno</li>
+  </ul>
+  <br>
+
+  <a href="index.html#inicio">👍</a>
+  <hr>
+
+  <h2 id="accesibilidad">accesibilidad web</h2>
+  <h3 role="title">las estaciones del ano</h3>
+  <ul role="list">
+   <li role="listitem">Primavera</li>
+   <li role="listitem">Verano</li>
+   <li role="listitem">Otono</li>
+   <li role="listitem">Invierno</li>
+  </ul>
+  <a role="link" aria-label="en este enlaze encontraras mas informacion sobre las estaciones del ano " href="#"
+   target="_blank">Mas informacion</a>
+  <a href="index.html#inicio">👍</a>
+  <hr>
+  <br>
+  <h2> </h2>
+  <a href="index.html#inicio">👍</a>
+
+
+
+
+
+  <hr>
+  <h2>Scripts en HTML </h2>
+  <script>
+   console.log("hola estamos aprendidndo HTML");
+  </script>
+</body>
+
+</html>x
